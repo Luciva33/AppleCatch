@@ -32,11 +32,11 @@ public class ItemGenerator : MonoBehaviour
             int dice = Random.Range(1, 11);
             if (dice <= this.ratio)
             {
-                item = Instantiate(applePrefab);
+                item = Instantiate(bombPrefab);
             }
             else
             {
-                item = Instantiate(bombPrefab);
+                item = Instantiate(applePrefab);
             }
             float x = Random.Range(-1, 2);
             float z = Random.Range(-1, 2);
