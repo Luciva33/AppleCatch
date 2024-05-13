@@ -5,7 +5,7 @@ using UnityEngine;
 public class BasketController : MonoBehaviour
 {
     public AudioClip appleSE;
-    public AudioClip bombSe;
+    public AudioClip bombSE;
     AudioSource aud;
     // Start is called before the first frame update
     void Start()
